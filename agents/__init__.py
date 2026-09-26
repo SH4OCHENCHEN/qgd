@@ -5,6 +5,8 @@ from agents.fql import FQLAgent
 from agents.ifql import IFQLAgent
 from agents.iql import IQLAgent
 from agents.rebrac import ReBRACAgent
+from agents.qam import QAMAgent
+from agents.vgf import VGFAgent
 
 agents = {
     'bc': BCAgent,
@@ -14,4 +16,6 @@ agents = {
     'ifql': IFQLAgent,
     'iql': IQLAgent,
     'rebrac': ReBRACAgent,
+    'qam': QAMAgent,
+    'vgf': VGFAgent
 }
