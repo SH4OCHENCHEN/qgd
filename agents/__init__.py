@@ -1,5 +1,5 @@
 from agents.bc import BCAgent
-from agents.cdp import CDPAgent
+from agents.qgd import QGDAgent
 from agents.fbrac import FBRACAgent
 from agents.fql import FQLAgent
 from agents.ifql import IFQLAgent
@@ -10,7 +10,7 @@ from agents.vgf import VGFAgent
 
 agents = {
     'bc': BCAgent,
-    'cdp': CDPAgent,
+    'qgd': QGDAgent,
     'fbrac': FBRACAgent,
     'fql': FQLAgent,
     'ifql': IFQLAgent,
