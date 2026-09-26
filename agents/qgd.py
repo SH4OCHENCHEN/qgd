@@ -104,7 +104,7 @@ def select_action_subsets(actions: jnp.ndarray, scores: jnp.ndarray, topk: int, 
     return (top_actions, bottom_actions, top_scores, bottom_scores)
 
 
-class CDPAgent(flax.struct.PyTreeNode):
+class QGDAgent(flax.struct.PyTreeNode):
     rng: Any
     network: Any
     config: Any = nonpytree_field()
